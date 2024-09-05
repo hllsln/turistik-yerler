@@ -1,0 +1,66 @@
+body {
+	user-select: none;
+	font-family: 'Roboto', sans-serif;
+	min-height: 100dvh;
+}
+
+.main-home {
+	background-color: #d1e4ed;
+	min-height: 100dvh;
+}
+
+.main {
+	min-height: 100dvh;
+}
+
+.header {
+	background-image: url('src/assets/images/background.png');
+	min-height: 70dvh;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-title-first {
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	font-weight: 900;
+}
+
+.header-title-second {
+	font-size: 2rem;
+	text-transform: lowercase;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	font-weight: 100;
+}
+
+.bottom {
+	background-image: url('src/assets/images/sign.png');
+	min-height: 80dvh;
+	background-position-y: start;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.back-to-top {
+	position: fixed;
+	padding: 3px 10px;
+	bottom: 50px;
+	right: 10px;
+
+	img {
+		height: 15px;
+	}
+	&:hover {
+		background-color: #f8f8f8;
+	}
+}
+.before-scroll {
+	display: none;
+}
+.after-scroll {
+	display: block;
+}
