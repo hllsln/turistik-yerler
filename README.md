@@ -28,3 +28,9 @@ Kullanıcılar, Türkiye'de bulunan turistik yerleri görüntüleyebilir, bu yer
 - npm
 - Postman
 - Vite
+
+## Proje Ekran Görüntüleri
+
+![Home Page Screenshot](https://raw.githubusercontent.com/hllsln/turistik-yerler/main/screenshots/ty1.png)
+
+![Places Page Screenshot](https://raw.githubusercontent.com/hllsln/turistik-yerler/main/screenshots/ty2.png)
